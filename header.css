@@ -1,12 +1,12 @@
 html {
-  background-color: #FAF8F1;
   font-family: 'Rubik', sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 #page_header {
-  background-color: #FAEAB1;
+  margin: 0;
+  padding: 0;
+  /*background-color: #FAEAB1;*/
+  background-color: #68A0AF;
   display: flex;
   position: sticky;
   top: 0;
@@ -20,12 +20,13 @@ html {
   text-align: center;
   font-size: 3em;
   margin-left: 0.5em;
-  color: black;
+  color: #EAEBE6;
 }
 
 #page_header .divider {
   border-style: solid;
-  border-color: rgb(230, 214, 157);
+  /*border-color: rgb(230, 214, 157);*/
+  border-color: #EAEBE6;
   height: 5em;
   margin-left: 2em;
   margin-right: 1em;
@@ -45,7 +46,7 @@ html {
   margin: 0.2em;
   padding: 0.5em;
   font-size: 2em;
-  color: black;
+  color: #EAEBE6;
   transition: 0.55s;
   transition-delay: 0.15s;
   white-space: nowrap;
@@ -53,7 +54,8 @@ html {
 
 #page_header .header_item:hover {
   border-radius: 10%;
-  background-color: #E5BA73;
+  /*background-color: #E5BA73;*/
+  background-color: rgb(234, 235, 230, 0.35);
 }
 
 
